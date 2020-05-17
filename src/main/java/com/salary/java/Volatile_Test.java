@@ -1,4 +1,4 @@
-package com.mashibing.java;
+package com.salary.java;
 
 public class Volatile_Test {
 
