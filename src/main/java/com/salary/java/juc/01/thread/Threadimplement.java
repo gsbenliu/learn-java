@@ -8,7 +8,7 @@ public class Threadimplement {
         /**
          * 实现线程的第一种方式，实现runnable接口
          */
-        RunnableThread runnableThread = new RunnableThread();
+        com.salary.java.juc.thread.RunnableThread runnableThread = new com.salary.java.juc.thread.RunnableThread();
         Thread first = new Thread(runnableThread);
         first.start();
         System.out.println("first thread Runnable output first");
@@ -16,14 +16,14 @@ public class Threadimplement {
         /**
          * 集成Thread类实现run方法
          */
-        ThreadThread threadThread = new ThreadThread();
+        com.salary.java.juc.thread.ThreadThread threadThread = new com.salary.java.juc.thread.ThreadThread();
         threadThread.start();
         System.out.println("second thread Runnable output second");
 
         /**
          * 实现callable接口
          */
-        CallbleThread callbleThread = new CallbleThread();
+        com.salary.java.juc.thread.CallbleThread callbleThread = new com.salary.java.juc.thread.CallbleThread();
         ExecutorService executor = Executors.newFixedThreadPool(2);
         Future<String> future = executor.submit(callbleThread);
         System.out.println("third thread Callable output " + future.get());
@@ -31,7 +31,7 @@ public class Threadimplement {
         /**
          * futuretask
          */
-        FutureTask futureTask = new FutureTask(new CallbleThread());
+        FutureTask futureTask = new FutureTask(new com.salary.java.juc.thread.CallbleThread());
         new Thread(futureTask).start();
         System.out.println("forth thread FutureTask output " + futureTask.get());
     }
