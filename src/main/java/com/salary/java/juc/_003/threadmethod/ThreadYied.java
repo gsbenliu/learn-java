@@ -24,3 +24,5 @@ public class ThreadYied {
         thread_2.start();
     }
 }
+
+
