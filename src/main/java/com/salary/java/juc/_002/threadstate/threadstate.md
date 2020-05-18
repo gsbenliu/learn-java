@@ -1,3 +1,6 @@
+
+![线程状态](http://ifeve.com/wp-content/uploads/2014/08/threads2.gif)
+
 #### NEW 
       Thread state for a thread which has not yet started.  
       线程还未开始执行，线程初始化状态
@@ -16,7 +19,7 @@
        阻塞的线程，等待获取监视器所。阻塞线程等待获取监视器锁，调用wait()后，进入一个同步代码块或者方法，
        或者重入另外一个同步代码块或者方法
 --------------
-##### WAITING,
+##### WAITING
       Thread state for a waiting thread.
       A thread is in the waiting state due to calling one of the
       following methods:
@@ -37,7 +40,7 @@
       
       调用一下方法后线程一直处理等待[<ul>标签]，直到通过下面的方法进行释放后[<tt>标签]，线程才可以继续执行
 --------------
-##### TIMED_WAITING,
+##### TIMED_WAITING
       Thread state for a waiting thread with a specified waiting time.
       A thread is in the timed waiting state due to calling one of
       the following methods with a specified positive waiting time:
@@ -53,4 +56,5 @@
 #### TERMINATED
       Thread state for a terminated thread.The thread has completed execution.
       线程终态，线程已经远行完毕。[正常执行完毕][异常情况退出]
+
       
