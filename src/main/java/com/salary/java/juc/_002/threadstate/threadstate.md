@@ -1,4 +1,4 @@
-![线程状态](http://ifeve.com/wp-content/uploads/2014/08/threads2.gif)
+![线程状态](threads2.gif)
 
 #### NEW
 
