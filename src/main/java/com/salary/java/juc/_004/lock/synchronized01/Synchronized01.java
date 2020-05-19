@@ -1,44 +1,59 @@
 package com.salary.java.juc._004.lock.synchronized01;
 
+import org.openjdk.jol.info.ClassLayout;
+
 import java.util.concurrent.TimeUnit;
 
 public class Synchronized01 {
 
     private static int i = 0;
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Exception {
+
         final Synchronized01 synchronized01 = new Synchronized01();
-        for (int i = 0; i < 5; i++) {
-            new Thread(new Runnable() {
-                public void run() {
+
+        new Thread(new Runnable() {
+            public void run() {
+                try {
                     synchronized01.increase();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
-            }).start();
-        }
-        TimeUnit.SECONDS.sleep(6L);
-        System.out.println("" + i);
-        for (int i = 0; i < 3; i++) {
-            new Thread(new Runnable() {
-                public void run() {
+            }
+        }).start();
+
+        new Thread(new Runnable() {
+            public void run() {
+                try {
                     synchronized01.decrease();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
-            }).start();
-        }
+            }
+        }).start();
         TimeUnit.SECONDS.sleep(6L);
         System.out.println("" + i);
     }
 
 
-    public void increase() {
+    public void increase() throws InterruptedException {
+        System.out.println("befor increase thread " + ClassLayout.parseInstance(this).toPrintable());
         synchronized (this) {
+            final int j = i;
+            System.out.println("increase thread " + j + "" + ClassLayout.parseInstance(this).toPrintable());
             ++i;
+            TimeUnit.SECONDS.sleep(3L);
         }
     }
 
 
-    public void decrease() {
+    public void decrease() throws InterruptedException {
+        System.out.println("befor decrease thread " + "" + ClassLayout.parseInstance(this).toPrintable());
         synchronized (this) {
+            final int j = i;
+            System.out.println("decrease thread " + j + "" + ClassLayout.parseInstance(this).toPrintable());
             --i;
+            TimeUnit.SECONDS.sleep(3L);
         }
     }
 
