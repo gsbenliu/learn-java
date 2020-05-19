@@ -1,4 +1,4 @@
-package com.salary.java.juc._004.lock.synchronized01;
+package com.salary.java.juc._004.lock.synchronized02;
 
 import org.openjdk.jol.info.ClassLayout;
 
