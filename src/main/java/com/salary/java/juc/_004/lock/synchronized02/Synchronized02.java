@@ -33,6 +33,8 @@ public class Synchronized02 {
         }).start();
         TimeUnit.SECONDS.sleep(6L);
         System.out.println("" + i);
+
+        System.out.println("befor increase thread " + ClassLayout.parseInstance(synchronized02).toPrintable());
     }
 
 
