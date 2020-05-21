@@ -1,6 +1,7 @@
 package com.salary.java.juc._004.lock.synchronized02;
 
 import org.openjdk.jol.info.ClassLayout;
+import org.openjdk.jol.vm.VM;
 
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +10,7 @@ public class Synchronized02 {
     private static int i = 0;
 
     public static void main(String[] args) throws Exception {
+        System.out.println(VM.current().details());
 
         final Synchronized02 synchronized02 = new Synchronized02();
 

@@ -13,3 +13,13 @@
       monitorenter指令是在编译后插入到同步代码块的开始位置，而monitorexit是插入到方法结束处和异常处， 
       JVM要保证每个monitorenter必须有对应的monitorexit与之配对。任何对象都有一个 monitor 与之关联，当且一个monitor 被持有后，
       它将处于锁定状态。线程执行到 monitorenter 指令时，将会尝试获取对象所对应的 monitor 的所有权，即尝试获得对象的锁。
+######     
+      https://tech.meituan.com/2018/11/15/java-lock.html 
+###### java中的锁类型      
+      1. 乐观锁 VS 悲观锁
+      2. 自旋锁 VS 适应性自旋锁
+      3. 无锁 VS 偏向锁 VS 轻量级锁 VS 重量级锁
+      4. 公平锁 VS 非公平锁
+      5. 可重入锁 VS 非可重入锁
+      6. 独享锁 VS 共享锁
+      7.分段锁
