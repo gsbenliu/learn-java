@@ -2,6 +2,7 @@ package com.salary.java.juc._004.lock.synchronized03;
 
 import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.vm.VM;
+import sun.misc.Unsafe;
 
 import java.util.concurrent.TimeUnit;
 

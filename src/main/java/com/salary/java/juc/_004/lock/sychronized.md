@@ -15,6 +15,7 @@
       它将处于锁定状态。线程执行到 monitorenter 指令时，将会尝试获取对象所对应的 monitor 的所有权，即尝试获得对象的锁。
 ######     
       https://tech.meituan.com/2018/11/15/java-lock.html 
+      https://www.jianshu.com/p/f3bb5313fce4
 ###### java中的锁类型      
       1. 乐观锁 VS 悲观锁
       2. 自旋锁 VS 适应性自旋锁
@@ -23,3 +24,15 @@
       5. 可重入锁 VS 非可重入锁
       6. 独享锁 VS 共享锁
       7.分段锁
+###  目录     
+##### 1.什么是锁
+    java官方文档中对于java中线程和锁的定义：https://docs.oracle.com/javase/specs/jls/se8/html/jls-17.html
+    pdf版本：https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf
+------- 
+    jvm中对于锁的定义https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-3.html#jvms-3.14
+    Synchronization in the Java Virtual Machine is implemented by monitor entry and exit, either explicitly (by use of the monitorenter and monitorexit instructions) or implicitly (by the method invocation and return instructions). 
+##### 2.
+##### 3.锁升级
+##### 4.偏向锁
+##### 5.轻量级锁
+##### 6.重量级锁

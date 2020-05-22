@@ -9,6 +9,8 @@
     https://tech.meituan.com/2018/11/15/java-lock.html
     https://juejin.im/post/5e1d8723f265da3e0535ef0c
     https://github.com/farmerjohngit/myblog
+    https://www.jianshu.com/p/f3bb5313fce4
+    https://ifeve.com/java-synchronized/
     
     
     //  - the two lock bits are used to describe three states: locked/unlocked and monitor.
