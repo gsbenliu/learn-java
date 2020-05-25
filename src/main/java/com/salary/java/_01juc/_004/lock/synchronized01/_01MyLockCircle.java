@@ -79,6 +79,7 @@ public class _01MyLockCircle {
 
 
     class User {
+
         private int age;
 
         public User(int age) {
