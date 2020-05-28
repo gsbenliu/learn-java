@@ -11,6 +11,8 @@
     https://github.com/farmerjohngit/myblog
     https://www.jianshu.com/p/f3bb5313fce4
     https://ifeve.com/java-synchronized/
+    https://www.jianshu.com/p/282bdb57e343
+    https://ifeve.com/jdk1-8-abstractqueuedsynchronizer/
     
     
     //  - the two lock bits are used to describe three states: locked/unlocked and monitor.
