@@ -13,6 +13,11 @@
             <artifactId>jol-core</artifactId>
             <version>0.10</version>
         </dependency>
+        <dependency>
+            <groupId>com.bestpay.mbp</groupId>
+            <artifactId>service-facade</artifactId>
+            <version>1.86.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

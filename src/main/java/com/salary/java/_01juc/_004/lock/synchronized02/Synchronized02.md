@@ -1,5 +1,8 @@
 #### 加锁后
 通过对象在内存中的布局，判断对象是否持有锁。
+https://blog.csdn.net/qq_37001674/article/details/87916598
+https://blog.csdn.net/shandian000/article/details/54927876/
+https://www.jianshu.com/p/c3313dcf2c23
 #### 对象内存布局
 ![对象布局](juc2.jpg)
 ##### 对象头
