@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/common/convert/MonitorAddConfigConvert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/common/convert/MonitorModifyConvert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/common/handler/AbstractHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/common/handler/CommonHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/common/validator/CommonValidator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/handler/MonitorConfigDeleteHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/handler/MonitorConfigInsertHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/handler/MonitorConfigModifyHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/handler/MonitorConfigQueryHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/handler/MonitorConfigQueryIndexHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/helper/AbstractHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/helper/EventHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/helper/RuleHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/helper/StrategyHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-biz/src/main/java/com/bestpay/clp/risk/monitor/biz/helper/StrategySetHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/enums/ChartTypeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/enums/IndexTypeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/enums/ParticleSizeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/enums/RiskMonitorErrorEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/enums/StatusTypeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/enums/StrategyTypeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/exception/ServiceException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/log/BestpayMarker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/utils/DateUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/utils/JsonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-common/src/main/java/com/bestpay/clp/risk/monitor/common/utils/ValidatorUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-core/src/main/java/com/bestpay/clp/risk/monitor/core/transaction/MonitorConfigTransactionCore.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/clickhouse/mapper/read/MonitorDetailReadMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/clickhouse/model/MonitorDetailCountDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/clickhouse/model/QueryIndexInfoDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/config/ClickHouseDatasourceConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/config/RiskMonitorDatasourceConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/mysql/mapper/read/MonitorConfigReadMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/mysql/mapper/read/MonitorIndexConfigReadMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/mysql/mapper/write/MonitorConfigWriteMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/mysql/mapper/write/MonitorIndexConfigWriteMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/mysql/model/BaseDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/mysql/model/MonitorConfigDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-dal/src/main/java/com/bestpay/clp/risk/monitor/dal/mysql/model/MonitorIndexConfigDO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-manager/src/main/java/com/bestpay/clp/risk/monitor/manager/ClpRiskMonitorConfigManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-manager/src/main/java/com/bestpay/clp/risk/monitor/manager/ClpRiskMonitorIndexConfigManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-manager/src/main/java/com/bestpay/clp/risk/monitor/manager/MonitorDetailCountMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-manager/src/main/java/com/bestpay/clp/risk/monitor/manager/impl/ClpRiskMonitorConfigImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-manager/src/main/java/com/bestpay/clp/risk/monitor/manager/impl/ClpRiskMonitorIndexConfigImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../clp-risk-monitor/clp-risk-monitor-manager/src/main/java/com/bestpay/clp/risk/monitor/manager/impl/MonitorDetailCountMapperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/salary/java/_07elasticsearch/desc.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/salary/java/_08kafka/desc.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/salary/java/_09redis/desc.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/salary/java/_10dubbo/desc.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/salary/java/_12mysql/desc.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/salary/java/_13spring/desc.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/salary/java/_14arch/desc.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
